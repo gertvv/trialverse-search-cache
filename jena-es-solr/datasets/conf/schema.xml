@@ -1,0 +1,12 @@
+<schema name="datasets" version="1.0">
+   <field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false" /> 
+   <field name="_version_" type="long" indexed="true" stored="true" multiValued="false" />
+
+   <field name="head" type="string" indexed="false" stored="true" required="true" multiValued="false" /> 
+   <field name="creator" type="string" indexed="true" stored="true" required="true" multiValued="false" /> 
+
+   <uniqueKey>id</uniqueKey>
+
+   <fieldType name="string" class="solr.StrField" sortMissingLast="true" />
+   <fieldType name="long" class="solr.TrieLongField" precisionStep="0" positionIncrementGap="0"/>
+</schema>

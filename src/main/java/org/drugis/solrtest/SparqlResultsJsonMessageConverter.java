@@ -1,7 +1,5 @@
 package org.drugis.solrtest;
-import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;

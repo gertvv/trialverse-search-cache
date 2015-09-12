@@ -2,3 +2,4 @@
 .project
 .settings
 target
+jena-es-solr/*/data/*
